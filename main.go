@@ -1,8 +1,6 @@
 package main
 
-import (
-	"goSchool/exercises/basic"
-)
+import "goSchool/exercises/flow"
 
 func main() {
 	//s1 := goDawggy.Bark()
@@ -10,5 +8,6 @@ func main() {
 	//
 	//fmt.Println(s1)
 	//fmt.Println(s2)
-	basic.PrintStuffs()
+	//basic.PrintStuffs()
+	flow.RollComparisonLogic()
 }
