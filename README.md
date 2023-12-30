@@ -1,3 +1,3 @@
-# go1K
+# goSchool
 
-A simple proving grounds for a variety of Go exercises.
+A simple proving grounds for a variety of Go exercises and references.
