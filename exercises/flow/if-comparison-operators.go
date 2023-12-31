@@ -4,9 +4,6 @@ import "fmt"
 
 func RollComparisonLogic() {
 
-	x := 42
-	y := 5
-
 	fmt.Printf("x=%v \n y=%v\n", x, y)
 
 	// Conditionals
