@@ -1,5 +1,7 @@
 package main
 
+import "goSchool/exercises/array_slice"
+
 func main() {
 	//s1 := goDawggy.Bark()
 	//s2 := goDawggy.Barks()
@@ -11,4 +13,7 @@ func main() {
 	//flow.RollStatementIdiom()
 	//flow.RollSwitchStatements()
 	//flow.RollSelectStatements()
+	//array_slice.RollArrays()
+	//array_slice.RollIceCream()
+	array_slice.RollIceCreamSlice()
 }
