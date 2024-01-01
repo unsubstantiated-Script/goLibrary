@@ -15,5 +15,6 @@ func main() {
 	//flow.RollSelectStatements()
 	//array_slice.RollArrays()
 	//array_slice.RollIceCream()
-	array_slice.RollIceCreamSlice()
+	//array_slice.RollIceCreamSlice()
+	array_slice.RollSlices()
 }

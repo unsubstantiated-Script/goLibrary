@@ -22,7 +22,7 @@ func RollIceCreamSlice() {
 	fmt.Printf("%#v \t %T\n", iceCreams, iceCreams)
 	fmt.Println(len(iceCreams))
 
-	for i, v := range iceCreams {
-		fmt.Printf("%v - %v\n", i, v)
+	for _, v := range iceCreams {
+		fmt.Printf("%v - %v\n", v)
 	}
 }
