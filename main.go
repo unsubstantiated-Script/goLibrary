@@ -16,5 +16,6 @@ func main() {
 	//array_slice.RollArrays()
 	//array_slice.RollIceCream()
 	//array_slice.RollIceCreamSlice()
-	array_slice.RollSlices()
+	//array_slice.RollSlices()
+	array_slice.RollSlicercises()
 }
