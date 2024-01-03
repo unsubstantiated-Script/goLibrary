@@ -1,6 +1,6 @@
 package main
 
-import "goSchool/exercises/array_slice"
+import "goSchool/exercises/mappage"
 
 func main() {
 	//s1 := goDawggy.Bark()
@@ -17,5 +17,7 @@ func main() {
 	//array_slice.RollIceCream()
 	//array_slice.RollIceCreamSlice()
 	//array_slice.RollSlices()
-	array_slice.RollSlicercises()
+	//array_slice.RollSlicercises()
+	//mappage.RollMappage()
+	mappage.RollMappercise()
 }
