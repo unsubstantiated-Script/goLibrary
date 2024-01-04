@@ -1,7 +1,5 @@
 package main
 
-import "goSchool/exercises/mappage"
-
 func main() {
 	//s1 := goDawggy.Bark()
 	//s2 := goDawggy.Barks()
@@ -19,5 +17,6 @@ func main() {
 	//array_slice.RollSlices()
 	//array_slice.RollSlicercises()
 	//mappage.RollMappage()
-	mappage.RollMappercise()
+	//mappage.RollMappercise()
+	//structy_structs.RollStructercises()
 }
