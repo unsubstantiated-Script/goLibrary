@@ -23,5 +23,6 @@ func main() {
 	//structy_structs.RollStructercises()
 	//funky_funcs.RollFunkyFuncs()
 	//funky_funcs.RollDefer()
-	funky_funcs.RollMethods()
+	//funky_funcs.RollMethods()
+	funky_funcs.RollInterfaces()
 }
