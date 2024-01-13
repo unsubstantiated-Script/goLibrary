@@ -23,6 +23,12 @@ func (c count) String() string {
 	return fmt.Sprint("The count is...", strconv.Itoa(int(c)))
 }
 
+// Passing a method as an argument. Here it's fmt.Stringer. Being that the interface type is of Stringer, we can pass them in.
+// s.String() will print out based up on the underlying type.
+func logInfo(s fmt.Stringer) {
+	log.Println("LOG FROM 138", s.String())
+}
+
 func RollInterfaces() {
 	//Invoking the structs
 	b := book{
@@ -36,4 +42,7 @@ func RollInterfaces() {
 
 	log.Println(b)
 	log.Println(n)
+
+	logInfo(b)
+	logInfo(n)
 }
