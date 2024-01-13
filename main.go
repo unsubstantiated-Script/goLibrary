@@ -22,5 +22,6 @@ func main() {
 	//mappage.RollMappercise()
 	//structy_structs.RollStructercises()
 	//funky_funcs.RollFunkyFuncs()
-	funky_funcs.RollDefer()
+	//funky_funcs.RollDefer()
+	funky_funcs.RollMethods()
 }
