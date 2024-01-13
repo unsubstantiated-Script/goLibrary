@@ -1,5 +1,7 @@
 package main
 
+import funky_funcs "goSchool/exercises/funky-funcs"
+
 func main() {
 	//s1 := goDawggy.Bark()
 	//s2 := goDawggy.Barks()
@@ -19,4 +21,5 @@ func main() {
 	//mappage.RollMappage()
 	//mappage.RollMappercise()
 	//structy_structs.RollStructercises()
+	funky_funcs.RollFunkyFuncs()
 }
