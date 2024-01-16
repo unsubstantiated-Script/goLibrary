@@ -27,5 +27,5 @@ func main() {
 	//funky_funcs.RollInterfaces()
 	//funky_funcs.RollWriteOut()
 	//funky_funcs.RollByteBuffer()
-	funky_funcs.RollWriterBuffer()
+	funky_funcs.RollAnonymoose()
 }
