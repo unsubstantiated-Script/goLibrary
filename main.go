@@ -24,5 +24,8 @@ func main() {
 	//funky_funcs.RollFunkyFuncs()
 	//funky_funcs.RollDefer()
 	//funky_funcs.RollMethods()
-	funky_funcs.RollInterfaces()
+	//funky_funcs.RollInterfaces()
+	//funky_funcs.RollWriteOut()
+	//funky_funcs.RollByteBuffer()
+	funky_funcs.RollWriterBuffer()
 }
