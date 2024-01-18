@@ -30,5 +30,6 @@ func main() {
 	//funky_funcs.RollAnonymoose()
 	//funky_funcs.RollFuncExpressions()
 	//funky_funcs.RollCallbacks()
-	funky_funcs.RollClosure()
+	//funky_funcs.RollClosure()
+	funky_funcs.RollRecursion()
 }
