@@ -1,7 +1,5 @@
 package main
 
-import "goSchool/exercises/array_slice"
-
 func main() {
 	//s1 := goDawggy.Bark()
 	//s2 := goDawggy.Barks()
@@ -17,5 +15,20 @@ func main() {
 	//array_slice.RollIceCream()
 	//array_slice.RollIceCreamSlice()
 	//array_slice.RollSlices()
-	array_slice.RollSlicercises()
+	//array_slice.RollSlicercises()
+	//mappage.RollMappage()
+	//mappage.RollMappercise()
+	//structy_structs.RollStructercises()
+	//funky_funcs.RollFunkyFuncs()
+	//funky_funcs.RollDefer()
+	//funky_funcs.RollMethods()
+	//funky_funcs.RollInterfaces()
+	//funky_funcs.RollWriteOut()
+	//funky_funcs.RollByteBuffer()
+	//funky_funcs.RollAnonymoose()
+	//funky_funcs.RollFuncExpressions()
+	//funky_funcs.RollCallbacks()
+	//funky_funcs.RollClosure()
+	//funky_funcs.RollRecursion()
+	//funky_funcs.RollWrapper()
 }
