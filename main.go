@@ -33,5 +33,8 @@ func main() {
 	//funky_funcs.RollClosure()
 	//funky_funcs.RollRecursion()
 	//funky_funcs.RollWrapper()
-	pointers.RollPointerBasics()
+	//pointers.RollPointerBasics()
+	//pointers.RollMoarPointers()
+	//pointers.RollStackHeap()
+	pointers.RollMethodSets()
 }
