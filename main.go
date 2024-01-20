@@ -38,5 +38,6 @@ func main() {
 	//pointers.RollStackHeap()
 	//pointers.RollMethodSets()
 	//generics.RollTypeConstraint()
-	application_basics.RollJSONJazz()
+	//application_basics.RollJSONJazz()
+	application_basics.RollBCrypt()
 }
