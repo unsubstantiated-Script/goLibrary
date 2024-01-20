@@ -1,5 +1,7 @@
 package main
 
+import application_basics "goSchool/exercises/application-basics"
+
 func main() {
 	//s1 := goDawggy.Bark()
 	//s2 := goDawggy.Barks()
@@ -36,4 +38,5 @@ func main() {
 	//pointers.RollStackHeap()
 	//pointers.RollMethodSets()
 	//generics.RollTypeConstraint()
+	application_basics.RollJSONJazz()
 }
