@@ -35,4 +35,5 @@ func main() {
 	//pointers.RollMoarPointers()
 	//pointers.RollStackHeap()
 	//pointers.RollMethodSets()
+	//generics.RollTypeConstraint()
 }
