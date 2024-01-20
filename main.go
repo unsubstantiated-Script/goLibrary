@@ -1,7 +1,5 @@
 package main
 
-import "goSchool/exercises/generics"
-
 func main() {
 	//s1 := goDawggy.Bark()
 	//s2 := goDawggy.Barks()
@@ -37,5 +35,5 @@ func main() {
 	//pointers.RollMoarPointers()
 	//pointers.RollStackHeap()
 	//pointers.RollMethodSets()
-	generics.RollTypeConstraint()
+	//generics.RollTypeConstraint()
 }
