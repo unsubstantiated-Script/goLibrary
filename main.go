@@ -1,7 +1,5 @@
 package main
 
-import "goSchool/exercises/pointers"
-
 func main() {
 	//s1 := goDawggy.Bark()
 	//s2 := goDawggy.Barks()
@@ -36,5 +34,5 @@ func main() {
 	//pointers.RollPointerBasics()
 	//pointers.RollMoarPointers()
 	//pointers.RollStackHeap()
-	pointers.RollMethodSets()
+	//pointers.RollMethodSets()
 }
