@@ -1,6 +1,6 @@
 package main
 
-import application_basics "goSchool/exercises/application-basics"
+import "goSchool/exercises/concurrent"
 
 func main() {
 	//s1 := goDawggy.Bark()
@@ -39,5 +39,7 @@ func main() {
 	//pointers.RollMethodSets()
 	//generics.RollTypeConstraint()
 	//application_basics.RollJSONJazz()
-	application_basics.RollBCrypt()
+	//application_basics.RollBCrypt()
+	//concurrent.RollConcurrent()
+	concurrent.RollRaceCondition()
 }
