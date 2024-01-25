@@ -1,6 +1,6 @@
 package main
 
-import "goSchool/exercises/concurrent"
+import "goSchool/exercises/channels"
 
 func main() {
 	//s1 := goDawggy.Bark()
@@ -42,5 +42,6 @@ func main() {
 	//application_basics.RollBCrypt()
 	//concurrent.RollConcurrent()
 	//concurrent.RollRaceCondition()
-	concurrent.RollAtomic()
+	//concurrent.RollAtomic()
+	channels.RollChannels()
 }
