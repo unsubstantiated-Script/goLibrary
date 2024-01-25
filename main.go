@@ -41,5 +41,6 @@ func main() {
 	//application_basics.RollJSONJazz()
 	//application_basics.RollBCrypt()
 	//concurrent.RollConcurrent()
-	concurrent.RollRaceCondition()
+	//concurrent.RollRaceCondition()
+	concurrent.RollAtomic()
 }
