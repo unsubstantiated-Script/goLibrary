@@ -4,31 +4,31 @@ import (
 	"fmt"
 	"runtime"
 	"sync"
+	"sync/atomic"
+	"time"
 )
 
-func RollRaceCondition() {
+func RollAtomic() {
 
 	fmt.Println("CPUs:", runtime.NumCPU())
 	fmt.Println("CPUs:", runtime.NumGoroutine())
 
-	counter := 0
+	var counter int64
 
 	const gs = 100
 	var wg sync.WaitGroup
 	wg.Add(gs)
 
-	//Using a Mutex to lock down code in a GoRoutine you don't want each routine to touch.
-	var mu sync.Mutex
 	for i := 0; i < gs; i++ {
 		go func() {
-			mu.Lock()
-			//Due to goroutines, this "v" will be different every time...
-			v := counter
-			//time.Sleep(time.Second)
+
+			//Write to counter the Atomic way
+			atomic.AddInt64(&counter, 1)
+			time.Sleep(time.Second)
+			//Read to counter the Atomic way
+			fmt.Println("Counter \t", atomic.LoadInt64(&counter))
+
 			runtime.Gosched()
-			v++
-			counter = v
-			mu.Unlock()
 			wg.Done()
 		}()
 		fmt.Println("Goroutines:", runtime.NumGoroutine())
