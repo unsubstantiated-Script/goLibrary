@@ -48,5 +48,6 @@ func main() {
 	//channels.RollChannelRange()
 	//channels.RollChannelSelect()
 	//channels.RollChannelFanIn()
-	channels.RollChannelFanOut()
+	//channels.RollChannelFanOut()
+	channels.RollChannelContext()
 }
