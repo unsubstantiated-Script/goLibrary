@@ -43,5 +43,7 @@ func main() {
 	//concurrent.RollConcurrent()
 	//concurrent.RollRaceCondition()
 	//concurrent.RollAtomic()
-	channels.RollChannels()
+	//channels.RollDirectionalChannels()
+	//channels.RollDemChannels()
+	channels.RollChannelRange()
 }
