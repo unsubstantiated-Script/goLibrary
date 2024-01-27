@@ -45,5 +45,8 @@ func main() {
 	//concurrent.RollAtomic()
 	//channels.RollDirectionalChannels()
 	//channels.RollDemChannels()
-	channels.RollChannelRange()
+	//channels.RollChannelRange()
+	//channels.RollChannelSelect()
+	//channels.RollChannelFanIn()
+	channels.RollChannelFanOut()
 }
