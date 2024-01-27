@@ -1,5 +1,7 @@
 package main
 
+import "goSchool/exercises/channels"
+
 func main() {
 	//s1 := goDawggy.Bark()
 	//s2 := goDawggy.Barks()
@@ -31,4 +33,20 @@ func main() {
 	//funky_funcs.RollClosure()
 	//funky_funcs.RollRecursion()
 	//funky_funcs.RollWrapper()
+	//pointers.RollPointerBasics()
+	//pointers.RollMoarPointers()
+	//pointers.RollStackHeap()
+	//pointers.RollMethodSets()
+	//generics.RollTypeConstraint()
+	//application_basics.RollJSONJazz()
+	//application_basics.RollBCrypt()
+	//concurrent.RollConcurrent()
+	//concurrent.RollRaceCondition()
+	//concurrent.RollAtomic()
+	//channels.RollDirectionalChannels()
+	//channels.RollDemChannels()
+	//channels.RollChannelRange()
+	//channels.RollChannelSelect()
+	//channels.RollChannelFanIn()
+	channels.RollChannelFanOut()
 }
