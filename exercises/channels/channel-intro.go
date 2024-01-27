@@ -19,6 +19,5 @@ func RollChannels() {
 	//Taking jazz off the channel. Won't run as it's just opening a channel to do stuffs.
 	//Channels block!!
 	fmt.Println(<-c)
-
 	fmt.Println(<-c2)
 }
